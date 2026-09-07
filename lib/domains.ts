@@ -177,11 +177,11 @@ function withSubdomains(
 
 export const PROBLEM_DOMAINS: ProblemDomainOption[] = [
   withSubdomains(
-    problemDomain("logic", "Mathematical formalism", MathDomain.LOGIC, "⊢", "found", 2, 1847, [MathDomain.LOGIC, "03", "03-XX"]),
+    problemDomain("logic", "Mathematical logic", MathDomain.LOGIC, "⊢", "found", 2, 1847, [MathDomain.LOGIC, "03", "03-XX"]),
     [
-      ["logic-mathematical-logic", "Mathematical logic"],
+      ["logic-set-theory", "Set theory"],
       ["logic-model-theory", "Model theory"],
-      ["logic-set-theory", "Set theory"]
+      ["logic-proof-theory", "Proof theory"]
     ]
   ),
   problemDomain("category-theory", "Category theory", MathDomain.ALGEBRA, "→", "found", 4, 1945, ["18", "18-XX", "category-theory-categories"]),
